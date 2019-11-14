@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper xmlns="http://mybatis.org/schema/mybatis-mapper"
+        namespace="com.ruifeng.inspect.mapper.UserMapper">
+    <insert id="create" keyProperty="id" useGeneratedKeys="true"  parameterType="com.ruifeng.inspect.entity.User">
+        INSERT INTO user (name,phone) VALUES ( #{name},#{phone}
+    </insert>
+</mapper>
